@@ -250,10 +250,10 @@ export default function CultureSync({ userProfile, onBack }: CultureSyncProps) {
                       <div className="flex items-start justify-between">
                         <div className="flex-1">
                           <div className="flex flex-wrap gap-2 mb-2">
-                            <Badge className={getCategoryColor(tip.category)} size="sm">
+                            <Badge className={getCategoryColor(tip.category)}>
                               {tip.category}
                             </Badge>
-                            <Badge className={getDifficultyColor(tip.difficulty)} size="sm">
+                            <Badge className={getDifficultyColor(tip.difficulty)}>
                               {tip.difficulty}
                             </Badge>
                           </div>
